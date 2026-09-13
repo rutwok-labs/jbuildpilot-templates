@@ -1,0 +1,16 @@
+{
+  "id": "java-app",
+  "name": "Java Application",
+  "version": "1.0.0",
+  "description": "Basic Java application",
+  "type": "java-app",
+  "requirements": {
+    "java": "21",
+    "buildSystem": "maven"
+  },
+  "variables": [
+    { "name": "PROJECT_NAME", "required": true },
+    { "name": "PACKAGE_NAME", "required": true },
+    { "name": "MAIN_CLASS", "required": true }
+  ]
+}

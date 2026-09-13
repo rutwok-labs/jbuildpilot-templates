@@ -1,0 +1,17 @@
+{
+  "id": "paper-plugin-maven",
+  "name": "Paper Plugin (Maven)",
+  "version": "1.0.0",
+  "description": "Paper Plugin using Maven (Java 25+)",
+  "type": "minecraft-plugin",
+  "requirements": {
+    "java": "25",
+    "buildSystem": "maven"
+  },
+  "variables": [
+    { "name": "PROJECT_NAME", "required": true },
+    { "name": "PACKAGE_NAME", "required": true },
+    { "name": "MAIN_CLASS", "required": true },
+    { "name": "API_VERSION", "required": true }
+  ]
+}

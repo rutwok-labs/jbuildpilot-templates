@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "repositoryVersion": "1.0.0",
+  "templates": [
+    {
+      "id": "java-app",
+      "name": "Java Application",
+      "version": "1.0.0",
+      "description": "Basic Java application",
+      "path": "templates/java-app",
+      "category": "application",
+      "tags": ["java", "application"],
+      "java": { "minimum": "21" },
+      "buildSystem": "maven"
+    },
+    {
+      "id": "paper-plugin-maven",
+      "name": "Paper Plugin (Maven)",
+      "version": "1.0.0",
+      "description": "Paper Plugin using Maven (Java 25+)",
+      "path": "templates/paper-plugin-maven",
+      "category": "minecraft-plugin",
+      "tags": ["java", "minecraft", "paper", "maven"],
+      "java": { "minimum": "25" },
+      "buildSystem": "maven"
+    },
+    {
+      "id": "paper-plugin-gradle",
+      "name": "Paper Plugin (Gradle)",
+      "version": "1.0.0",
+      "description": "Paper Plugin using Gradle (Java 25+)",
+      "path": "templates/paper-plugin-gradle",
+      "category": "minecraft-plugin",
+      "tags": ["java", "minecraft", "paper", "gradle"],
+      "java": { "minimum": "25" },
+      "buildSystem": "gradle"
+    }
+  ]
+}

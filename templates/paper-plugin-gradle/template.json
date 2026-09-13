@@ -1,0 +1,17 @@
+{
+  "id": "paper-plugin-gradle",
+  "name": "Paper Plugin (Gradle)",
+  "version": "1.0.0",
+  "description": "Paper Plugin using Gradle (Java 25+)",
+  "type": "minecraft-plugin",
+  "requirements": {
+    "java": "25",
+    "buildSystem": "gradle"
+  },
+  "variables": [
+    { "name": "PROJECT_NAME", "required": true },
+    { "name": "PACKAGE_NAME", "required": true },
+    { "name": "MAIN_CLASS", "required": true },
+    { "name": "API_VERSION", "required": true }
+  ]
+}
