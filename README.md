@@ -18,15 +18,15 @@ To generate a new project from this repository, use the JBuildPilot CLI:
 
 ```bash
 # List available templates
-jbp template list
+pilot template list
 
 # Generate a new project interactively
-jbp create <template-id> <project-name>
+pilot create <template-id> <project-name>
 ```
 
 Example:
 ```bash
-jbp create paper-plugin-gradle MyAwesomePlugin
+pilot create paper-plugin-gradle MyAwesomePlugin
 ```
 
 ## Structure
